@@ -1,14 +1,17 @@
 package com.kiran.testingkotlinapp
 
+import junit.framework.Assert.assertTrue
 import org.junit.Assert
 import org.junit.Test
 
 class ArithmeticTest {
 
+    private lateinit var arithmetic: Arithmetic
     // Test method to test add function
+
     @Test
     fun testAddition(){
-        val arithmetic = Arithmetic()
+        arithmetic = Arithmetic()
         arithmetic.first = 2
         arithmetic.second = 3
 
@@ -21,7 +24,7 @@ class ArithmeticTest {
     // Test method to test subtraction function
     @Test
     fun testSubtraction(){
-        val arithmetic = Arithmetic()
+        arithmetic = Arithmetic()
         arithmetic.first = 2
         arithmetic.second = 3
 
@@ -29,5 +32,12 @@ class ArithmeticTest {
         val actualResult = arithmetic.subtract()
         // Check weather two values are equal or not
         Assert.assertEquals(expectedResult,actualResult)
+    }
+
+    @Test
+    fun testEvenNumber(){
+        arithmetic = Arithmetic()
+        val actualResult = arithmetic.checkEven(4)
+        assertTrue(actualResult)
     }
 }
