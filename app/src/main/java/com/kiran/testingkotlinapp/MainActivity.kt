@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         btnCalculate.setOnClickListener {
             addTwoNos()
         }
-
     }
 
     private fun addTwoNos() {
