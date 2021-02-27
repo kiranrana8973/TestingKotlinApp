@@ -1,12 +1,11 @@
 package com.kiran.testingkotlinapp
 
 class Arithmetic {
-
     var first: Int = 0
     var second: Int = 0
 
     fun add(): Int {
-        return first + second
+        return first + second + 1
     }
 
     fun subtract(): Int {
