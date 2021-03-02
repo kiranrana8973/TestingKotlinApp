@@ -5,7 +5,7 @@ class Arithmetic {
     var second: Int = 0
 
     fun add(): Int {
-        return first + second + 1
+        return first + second
     }
 
     fun subtract(): Int {

@@ -36,7 +36,9 @@ class MainActivity : AppCompatActivity() {
         arithmetic.second = second
 
         val result = arithmetic.add()
-        tvResult.text = result.toString()
+
+
+//        tvResult.text = result.toString()
 
 
         val intent = Intent(this, ResultActivity::class.java)

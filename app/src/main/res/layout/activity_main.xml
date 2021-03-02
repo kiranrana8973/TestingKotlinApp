@@ -54,7 +54,6 @@
         android:layout_marginTop="32dp"
         android:textSize="20sp"
         android:gravity="center"
-        android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
