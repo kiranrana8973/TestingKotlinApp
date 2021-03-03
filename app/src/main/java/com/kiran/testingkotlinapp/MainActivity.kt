@@ -38,12 +38,12 @@ class MainActivity : AppCompatActivity() {
         val result = arithmetic.add()
 
 
-//        tvResult.text = result.toString()
+        tvResult.text = result.toString()
 
 
-        val intent = Intent(this, ResultActivity::class.java)
-        intent.putExtra("result", result)
-        startActivity(intent)
+//        val intent = Intent(this, ResultActivity::class.java)
+//        intent.putExtra("result", result)
+//        startActivity(intent)
 
     }
 }

@@ -13,9 +13,9 @@ class ResultActivity : AppCompatActivity() {
 
         val tvOutput = findViewById<TextView>(R.id.tvOutput)
 
-        val result = intent.getIntExtra("result",0)
+        val result = intent.getIntExtra("result", 0)
 
-        tvOutput.text = result.toString()
+        tvOutput.text = "Sum is " + result.toString()
 
 
     }
